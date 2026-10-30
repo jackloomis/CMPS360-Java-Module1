@@ -16,7 +16,6 @@ public class Product {
     }
 
     // Getter methods
-
     public String getName() {
         return name;
     }
