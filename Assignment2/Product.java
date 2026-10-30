@@ -11,10 +11,11 @@ public class Product {
         this.quantity = quantity;
     }
 
-    // Getter methods
     public double calculateInventoryValue() {
         return quantity * price;
     }
+
+    // Getter methods
 
     public String getName() {
         return name;
